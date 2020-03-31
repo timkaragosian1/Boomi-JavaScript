@@ -1,0 +1,9 @@
+if (middleInitial.length === 1){
+    middleNameResult = middleInitial + ".";
+} else if (middleInitial.length > 1){
+    middleNameResult = middleInitial;
+} else if (middleName.length === 1){
+    middleNameResult = middleName + ".";
+} else {
+    middleNameResult = middleName;
+}
